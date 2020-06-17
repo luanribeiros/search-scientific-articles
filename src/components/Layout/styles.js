@@ -37,5 +37,4 @@ export const Content = styled.section`
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
-  border: 1px solid grey;
 `;
