@@ -13,8 +13,10 @@ const Layout = ({ children }) => {
           <S.Nav>
             <S.Ul>
               <S.Li>
-                <Link to="/favorites">
-                  <S.A>Favorites</S.A>
+                <Link to="/favorites" style={{ textDecoration: 'none' }}>
+                  <S.A as="" href="">
+                    Favorites
+                  </S.A>
                 </Link>
               </S.Li>
             </S.Ul>

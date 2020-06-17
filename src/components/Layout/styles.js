@@ -20,9 +20,7 @@ export const Nav = styled.nav`
 export const Ul = styled.ul`
   display: flex;
 `;
-export const Li = styled.li`
-  text-decoration: none;
-`;
+export const Li = styled.li``;
 export const A = styled.a`
   background: #000000;
   padding: 1rem;
