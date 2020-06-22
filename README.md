@@ -1,7 +1,5 @@
 # An application for researching scientific articles
 
-[find the api here]()
-
 ### Using:
 
 - Webpack 4+

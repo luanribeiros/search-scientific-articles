@@ -7,7 +7,13 @@ const SearchArticle = () => {
       <S.Form>
         <S.Label>
           Search <br />
-          <S.Input type="search" id="search" name="search" placeholder="Type your Search ..." />
+          <S.Input
+            onChange={(e) => console.log(e.target.value)}
+            type="search"
+            id="search"
+            name="search"
+            placeholder="Type your Search ..."
+          />
         </S.Label>
       </S.Form>
     </S.SectionSearch>
